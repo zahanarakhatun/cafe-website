@@ -1,0 +1,48 @@
+body{
+    font-family:Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin:0;
+    padding:30px;
+    text-align: center;
+
+}
+h1 {
+    color:#666666;
+    font-size:36px;
+}
+input{
+    padding:12px;
+    width:250px;
+    border:1px solid #cccccc;
+    border-radius:5px;
+}
+button{
+    padding:12px 20px;
+    background-color:#3478f6;
+    color: white;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#245dcc;
+}
+/* task design */
+#taskInput {
+    margin:10px;
+}
+#taskInput+button {
+    margin-left:10px;
+}
+
+/* Taskspeacing */
+.task-item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin:10px auto;
+    padding:15px;
+    width:300px;
+    background-color: white;
+    border-radius: 8px;
+}
